@@ -1,0 +1,31 @@
+{
+  "name": "phoneswithouthomes",
+  "version": "0.0.1",
+  "description": "An Open Source Charity to give Phones to Families in need.",
+  "author": "Phones Without Homes <pwh@forsurerad.com>",
+  "homepage": "http://phoneswithouthomes.org",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PhonesWithoutHomes/site.git"
+  },
+  "bugs": "https://github.com/PhonesWithoutHomes/site/issues",
+  "contributors": "https://github.com/PhonesWithoutHomes/sites/graphs/contributors",
+  "license": "MIT",
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js",
+    "postinstall": "bower install"
+  },
+  "main": "app.js",
+  "engines": {
+    "node": "~4.1.0"
+  },
+  "dependencies": {
+    "express": "4.12.4"
+  },
+  "optionalDependencies": {
+  },
+  "devDependencies": {
+    "bower": "1.4.1"
+  }
+}
